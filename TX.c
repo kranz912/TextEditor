@@ -2,6 +2,7 @@
 #include <termios.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <ctype.h>
 struct termios orig_termios;
 
 void disableRawMode(){
